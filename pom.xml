@@ -5,15 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.hsgamer</groupId>
-    <artifactId>teststate-client-java</artifactId>
+    <artifactId>client-java</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-
+ 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <grpc.version>1.71.0</grpc.version>
         <protobuf.version>4.30.0</protobuf.version>
         <annotation-api.version>1.3.2</annotation-api.version>
+        <specification.dir>${project.basedir}/../../../specification</specification.dir>
     </properties>
 
     <dependencies>
@@ -60,7 +61,7 @@
                         <version>${protobuf.version}</version>
                     </protoc>
                     <sourceDirectories>
-                        <sourceDirectory>${project.basedir}/../../../specification</sourceDirectory>
+                        <sourceDirectory>${specification.dir}</sourceDirectory>
                     </sourceDirectories>
                     <plugins>
                         <plugin kind="binary-maven">

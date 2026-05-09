@@ -1,4 +1,4 @@
-package me.hsgamer.testgenesis.client.utils;
+package me.hsgamer.teststate.client.utils;
 
 import com.google.protobuf.Duration;
 import com.google.protobuf.Timestamp;

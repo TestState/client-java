@@ -1,8 +1,8 @@
-package me.hsgamer.testgenesis.client.context;
+package me.hsgamer.teststate.client.context;
 
 import io.grpc.stub.StreamObserver;
-import me.hsgamer.testgenesis.client.utils.UapUtils;
-import me.hsgamer.testgenesis.uap.v1.*;
+import me.hsgamer.teststate.client.utils.UapUtils;
+import me.hsgamer.teststate.uap.v1.*;
 
 /**
  * Domain-specific context for Test sessions.

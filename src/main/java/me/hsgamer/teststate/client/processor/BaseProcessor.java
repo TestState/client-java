@@ -1,6 +1,6 @@
-package me.hsgamer.testgenesis.client.processor;
+package me.hsgamer.teststate.client.processor;
 
-import me.hsgamer.testgenesis.uap.v1.Capability;
+import me.hsgamer.teststate.uap.v1.Capability;
 
 /**
  * Common interface for all specialized processors.

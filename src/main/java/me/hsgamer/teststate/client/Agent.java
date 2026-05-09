@@ -1,4 +1,4 @@
-package me.hsgamer.testgenesis.client;
+package me.hsgamer.teststate.client;
 
 import com.google.protobuf.Empty;
 import com.google.protobuf.Struct;
@@ -8,11 +8,11 @@ import io.grpc.ManagedChannelBuilder;
 import io.grpc.Metadata;
 import io.grpc.stub.MetadataUtils;
 import io.grpc.stub.StreamObserver;
-import me.hsgamer.testgenesis.client.context.TestSessionContext;
-import me.hsgamer.testgenesis.client.context.TranslationSessionContext;
-import me.hsgamer.testgenesis.client.processor.TestSessionProcessor;
-import me.hsgamer.testgenesis.client.processor.TranslationSessionProcessor;
-import me.hsgamer.testgenesis.uap.v1.*;
+import me.hsgamer.teststate.client.context.TestSessionContext;
+import me.hsgamer.teststate.client.context.TranslationSessionContext;
+import me.hsgamer.teststate.client.processor.TestSessionProcessor;
+import me.hsgamer.teststate.client.processor.TranslationSessionProcessor;
+import me.hsgamer.teststate.uap.v1.*;
 
 import java.util.List;
 import java.util.Map;

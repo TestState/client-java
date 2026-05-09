@@ -1,8 +1,8 @@
-package me.hsgamer.testgenesis.client.processor;
+package me.hsgamer.teststate.client.processor;
 
-import me.hsgamer.testgenesis.client.context.TranslationSessionContext;
-import me.hsgamer.testgenesis.uap.v1.Capability;
-import me.hsgamer.testgenesis.uap.v1.TranslationCapability;
+import me.hsgamer.teststate.client.context.TranslationSessionContext;
+import me.hsgamer.teststate.uap.v1.Capability;
+import me.hsgamer.teststate.uap.v1.TranslationCapability;
 
 /**
  * Interface for script translation logic.
